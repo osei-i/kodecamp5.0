@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1260px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.start{
+    width: 1260px;
+    background-image: url("image/Rectangle 599.png");
+    height: 1001px;
+}
+
+.logo img {
+    height: 178.78px;
+    width: 223px;
+    top: 11px;
+    left: 8px;
+}
+
+.just{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.list{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+}
+
+.list li {
+    text-decoration: none;
+    color: #333; /* Darker text */
+    font-weight: 500;
+}
+
+button{
+    background-color: #CBFFD0; /* Green color */
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signup{
+    background-color: #26A69A;
+}
+
+.store{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.rectangle{
+    position: relative;
+    
+}
+
+.phone{
+    position: relative;
+    width: 575px;
+    height: 728px;
+    top: 98px;
+    left: 40px;
+}
+
+.rect{
+    position: absolute;
+    width: 370px;
+    height: 699px;
+    left: 254px;
+}
+
+.track{
+    flex: 1;
+    max-width: 50%;
+}
+
+.track h3{
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.track p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-right: 220px;
+}
+
+.app-button{
+    padding-top: 70px;
+}
+
+.app-button img{
+    width: 465px;
+    height: 70px;
+    
+}
+
+.whole{
+    position: relative;
+}
+
+.pho{
+    position: absolute;
+    height: 500px;
+    width: 320px;
+}
+
+.to{
+    position: relative;
+    top: 116px;
+    height: 400px;
+
+}
+
+.future{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    max-width: 1260px;
+    background-color: #ffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+     position: relative;
+    margin-top: -100px;
+    z-index: 2;
+    /* border-radius: 20px; */
+    box-shadow: 0 32px 50px rgba(0, 0, 0, 0.1);
+}
+
+
+.features{
+     padding: 80px 50px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.features h3{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+.income{
+    background-color: #26A69A;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    width: 200px;
+    height: 150px;
+    border-radius: 27px;
+}
+
+.tips{
+    display: flex;
+    
+}
+
+.expense{
+    display: flex;
+}
+
+.incoming{
+    background-color: #CBFFD0;
+}
+
+.work{
+    background-image: url("image/Rectangle 599.png");
+}
+.works{
+    border-bottom: px;
+}
+
+
+.works h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.box{
+    background-color: #CBFFD0;
+    border-radius: 27px;
+    padding: 20px;
+     width: 350px;
+    height: 7px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.box-two{
+    background-color: #26A69A;
+    margin: auto;
+    
+}
+
+.join{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+}
+
+.white{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.woman{
+    position: absolute;
+    height: 400px;
+    top: 1px;
+    right: 120px;
+    /* padding-top: 12px; */
+}
+
+.cojoin{
+    width: 400px;
+    height: 250px;
+}
+
+.testimonials{
+    background-color: #ffff;
+    position: relative;
+    overflow: hidden;
+    margin-top: -100px;
+    z-index: 2; 
+    box-shadow: 0 32px 50px rgba(0, 0, 0, 0.1);
+    height: 632px;
+    max-width: 1260px;
+}
+
+.side{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.testimonials h3{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.im1{
+    width: 80px;
+    height: 80px;
+}
+
+.im{
+    width: 120px;
+    height: 120px;
+}
+
+.im2{
+    width: 80px;
+}
+
+.right-image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down{
+     height: 200px;
+     width: 350px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 12px;
+}
+
+.testimonial{
+    background-color: #CBFFD0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.test-2{
+    background-color: #26A69A;
+    transform: translateY(-20px);
+    z-index: 3;
+    width:240px;
+    height: 300px;
+    margin-top: 0;
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  z-index: 2;
+  margin-top: 60px;
+}
+
+.test-1{
+    z-index: 1;
+    /* transform: translateY(-10px) scale(1.02); */
+    z-index: 1;
+    width: 240px;
+    height: 250px;
+    margin-top: 5px;
+    margin-right: -55px;
+    justify-items: center;
+    text-align: center;
+    margin-left: 300px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.test-3{
+    z-index: 1;
+    width: 240px;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: -55px;
+    justify-items: center;
+    text-align: center;
+    margin-right: 300px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.faq-section{
+    background-image: url("image/Rectangle 599.png");
+    height: 632px;
+    margin: auto;
+     width: 1260px;
+}
+
+.faq-list details > *:not(summary) {
+  display: none;
+}
+
+.faq-section h2 {
+  left: 360px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  bottom: 250px;
+}
+
+.faq-list{
+    background-color: #26A69A;
+    padding: 5px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    height: 310px;
+    position: relative;
+    bottom: 210px;
+}
+
+
+.faq-list details {
+  background-color: #CBFFD0;
+  padding: 20px;
+  margin: 20px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.faq-list summary {
+  font-weight: 600;
+  font-size: 1rem;
+  list-style: none;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left{
+    height: 350px;
+     width: 300px;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.footer-content{
+    background-color: #26A69A;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffff;
+
+}
+
+.logo-2{
+    color: #ffff;
+    height: 178.78px;
+    width: 223px;
+    top: 11px;
+    left: 8px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.face{
+    width: 25px;
+    margin: 8px;
+}
+
+.play{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.store-1{
+    width: 100px;
+    padding: unset;
+}
+
+.contact{
+    width: 150px; 
+}
+
+.foot ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 20px;
+
+}
