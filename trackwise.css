@@ -166,7 +166,7 @@ button{
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     width: 200px;
-    height: 150px;
+    height: 250px;
     border-radius: 27px;
 }
 
@@ -448,6 +448,8 @@ button{
     width: 223px;
     top: 11px;
     left: 8px;
+    margin: auto;
+    display: block;
 }
 
 .icon{
@@ -476,6 +478,9 @@ button{
 
 .contact{
     width: 150px; 
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .foot ul{
